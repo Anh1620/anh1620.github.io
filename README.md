@@ -16,6 +16,10 @@
       overflow: hidden;
     }
 
+    body > h1:first-of-type {
+      display: none !important;
+    }
+
     .envelope {
       width: 300px;
       height: 200px;
