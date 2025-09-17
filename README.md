@@ -150,9 +150,8 @@
     const greetingEl = document.getElementById('greetingText');
     let confettiInterval;
 
-    const greetingMessage = `Chúc bạn sinh nhật thật vui vẻ 🎉
-Mọi điều tốt đẹp sẽ đến với bạn ✨ Luôn hạnh phúc và thành công 🎂🎁 và cuối cùng chúc mọi điều tốt đẹ nhất đến với bạn`;
-
+    const greetingMessage = `Chúc c bước sang tuổi mới ngày càng xinh đẹp học giỏi, đạt được nhều thành công hơn trong cuộc sống, luôn luôn vui vẻ, hạnh phúc, tiến bộ hơn trở thành những phiên bản tốt hơn của chính mình, đỗ NV1 nhé, chúc mọi điều tốt đẹp nhất sẽ đến với c, mãi mãi là bn nhé!!!🎉🎂🎁`;
+    
     function typeWriter(text, element, speed = 70) {
       let i = 0;
       element.textContent = "";
