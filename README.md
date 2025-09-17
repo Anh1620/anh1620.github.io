@@ -151,9 +151,7 @@
     let confettiInterval;
 
     const greetingMessage = `Chúc bạn sinh nhật thật vui vẻ 🎉
-Mọi điều tốt đẹp sẽ đến với bạn ✨
-Luôn hạnh phúc và thành công 🎂🎁
-và cuối cùng chúc mọi điều tốt đẹ nhất đến với bạn`;
+Mọi điều tốt đẹp sẽ đến với bạn ✨ Luôn hạnh phúc và thành công 🎂🎁 và cuối cùng chúc mọi điều tốt đẹ nhất đến với bạn`;
 
     function typeWriter(text, element, speed = 70) {
       let i = 0;
