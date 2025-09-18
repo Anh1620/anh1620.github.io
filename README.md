@@ -138,7 +138,7 @@
     </div>
   </div>
 
-  <audio id="birthdaySong" loop>
+  <audio id="b" loop>
     <source src="p.MP3" type="audio/mp3">
   </audio>
 
@@ -146,7 +146,7 @@
     const envelope = document.getElementById('envelope');
     const letter = document.getElementById('letter');
     const closeLetter = document.getElementById('closeLetter');
-    const birthdaySong = document.getElementById('birthdaySong');
+    const b = document.getElementById('b');
     const greetingEl = document.getElementById('greetingText');
     let confettiInterval;
 
@@ -178,7 +178,7 @@
       envelope.classList.add('open');
       setTimeout(() => {
         letter.classList.add('show');
-        birthdaySong.play();
+        b.play();
         typeWriter(greetingMessage, greetingEl, 60);
         createConfetti();
         confettiInterval = setInterval(createConfetti, 5000);
@@ -188,8 +188,8 @@
     closeLetter.addEventListener('click', () => {
       letter.classList.remove('show');
       envelope.classList.remove('open');
-      birthdaySong.pause();
-      birthdaySong.currentTime = 0;
+      b.pause();
+      b.currentTime = 0;
       greetingEl.textContent = "";
       clearInterval(confettiInterval);
       const confettiPieces = document.querySelectorAll('.confetti-piece');
