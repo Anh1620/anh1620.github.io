@@ -76,7 +76,7 @@
 
     .greeting {
       font-size: 1.2em;
-      white-space: pre-line; /* giữ xuống dòng */
+      white-space: pre-line;
       margin-top: 20px;
       color: #444;
     }
